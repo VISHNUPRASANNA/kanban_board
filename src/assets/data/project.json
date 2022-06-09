@@ -1,0 +1,251 @@
+{
+  "id": "140892",
+  "name": "Angular Jira Clone",
+  "url": "https://github.com/trungk18/jira-clone-angular",
+  "description": "A Jira clone app built with Angular 10, Akita and ng-zorro - by trungk18",
+  "category": "Software",
+  "createdAt": "2020-06-12T16:00:00.000Z",
+  "updatedAt": "2020-06-13T16:00:00.000Z",
+  "users": [
+    {
+      "id": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "name": "Trung Vo",
+      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1593253478/trung-vo_bioxmc.png",
+      "projectId": "140892"
+    },
+    {
+      "id": "7ac265f9-b9ac-443f-a2b2-795682e579a4",
+      "name": "Iron Man",
+      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405732/ironman_c3jrbc.jpg",
+      "projectId": "140892"
+    },
+    {
+      "id": "94502aad-c97f-43e1-a9d1-28cf3e4937a7",
+      "name": "Captain",
+      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405732/captain_e8s9nk.jpg",
+      "projectId": "140892"
+    },
+    {
+      "id": "610451aa-10c8-4d7e-9363-311357c0b0dd",
+      "name": "Thor",
+      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405731/thor_juqwzf.jpg",
+      "projectId": "140892"
+    },
+    {
+      "id": "081ccaa1-5595-4621-8074-ede4927e67b0",
+      "name": "Spider Man",
+      "avatarUrl": "https://res.cloudinary.com/dvujyxh7e/image/upload/c_scale,w_48/v1592405731/spiderman_zlrtx0.jpg",
+      "projectId": "140892"
+    }
+  ],
+  "issues": [
+    {
+      "createdAt": "2020-08-27T14:23:38.183Z",
+      "description": "Centre",
+      "id": "6527",
+      "priority": "Medium",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "status": "Technical round",
+      "title": "Akash P",
+      "type": "Story",
+      "updatedAt": "2020-08-27T14:23:38.183Z",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"],
+      "listPosition": 1
+    },
+    {
+      "type": "Story",
+      "priority": "Medium",
+      "title": "Gayathri L",
+      "description": "Katomaran Technologies Pvt Ltd",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"],
+      "id": "73",
+      "status": "Written test",
+      "createdAt": "2020-10-26T15:13:08.070Z",
+      "updatedAt": "2020-10-26T15:13:10.418Z",
+      "listPosition": 2
+    },
+    {
+      "type": "Story",
+      "priority": "Highest",
+      "title": "S Suresh 🎧",
+      "description": "Synopsis",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"],
+      "id": "2021",
+      "status": "Open",
+      "createdAt": "2021-04-28T14:56:55.049Z",
+      "updatedAt": "2021-04-28T14:56:57.748Z",
+      "listPosition": 1
+    },
+    {
+      "type": "Story",
+      "priority": "Highest",
+      "title": "M Janasri 🎄🎄🎄",
+      "description": "TCS",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"],
+      "id": "2020",
+      "status": "Technical round",
+      "createdAt": "2020-12-19T03:00:00.000Z",
+      "updatedAt": "2020-12-19T03:00:00.000Z",
+      "listPosition": 1
+    },
+    {
+      "type": "Story",
+      "priority": "Highest",
+      "title": "Mohamed Mubarak 😍",
+      "description": "MongoDB",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"],
+      "id": "3957",
+      "status": "InProgress",
+      "createdAt": "2020-09-15T23:41:37.278Z",
+      "updatedAt": "2020-09-15T23:41:37.278Z",
+      "listPosition": 1
+    },
+    {
+      "id": "9013",
+      "title": "Jithin Sajay A ⛏️⛏️",
+      "description": "CTS",
+      "type": "Task",
+      "status": "Technical round",
+      "priority": "Highest",
+      "listPosition": 1,
+      "createdAt": "2020-06-12T14:40:01.262Z",
+      "updatedAt": "2020-06-12T14:40:01.262Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1", "7ac265f9-b9ac-443f-a2b2-795682e579a4"]
+    },
+    {
+      "id": "9210",
+      "title": "Pradeep K 😭😭😭",
+      "description": "Selenium",
+      "type": "Task",
+      "status": "Technical round",
+      "priority": "Medium",
+      "listPosition": 2,
+      "createdAt": "2020-06-12T14:40:01.262Z",
+      "updatedAt": "2020-06-12T14:40:01.262Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1", "94502aad-c97f-43e1-a9d1-28cf3e4937a7"]
+    },
+    {
+      "id": "9361",
+      "title": "Arun Kumar",
+      "description": "Smart parks",
+      "type": "Story",
+      "status": "InProgress",
+      "priority": "Lowest",
+      "listPosition": 3,
+      "createdAt": "2020-06-12T14:40:01.346Z",
+      "updatedAt": "2020-06-12T14:40:01.346Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["081ccaa1-5595-4621-8074-ede4927e67b0"]
+    },
+    {
+      "id": "9451",
+      "title": "Vimal",
+      "description": "Sirius Computer Solutions",
+      "type": "Story",
+      "status": "Written test",
+      "priority": "Medium",
+      "listPosition": 1,
+      "createdAt": "2020-06-12T14:40:01.262Z",
+      "updatedAt": "2020-06-12T14:48:00.807Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"]
+    },
+    {
+      "id": "9631",
+      "title": "Affan Ahmed",
+      "description": "Embient Technologies",
+      "type": "Task",
+      "status": "Contacted",
+      "priority": "Low",
+      "listPosition": 2,
+      "createdAt": "2020-06-12T14:40:01.350Z",
+      "updatedAt": "2020-06-12T14:51:09.653Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["610451aa-10c8-4d7e-9363-311357c0b0dd", "94502aad-c97f-43e1-a9d1-28cf3e4937a7"]
+    },
+    {
+      "id": "9546",
+      "title": "Prem Kumar",
+      "description": "RPM",
+      "type": "Story",
+      "status": "Technical round",
+      "priority": "High",
+      "listPosition": 1,
+      "createdAt": "2020-06-12T14:40:01.304Z",
+      "updatedAt": "2020-06-12T14:52:02.173Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"]
+    },
+    {
+      "id": "9548",
+      "title": "Mouna",
+      "description": "HTML",
+      "type": "Bug",
+      "status": "Technical round",
+      "priority": "High",
+      "listPosition": 1,
+      "createdAt": "2020-06-12T14:40:01.304Z",
+      "updatedAt": "2020-06-12T14:52:02.173Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"]
+    },
+    {
+      "id": "9584",
+      "title": "Vishnu",
+      "description": "Angular",
+      "type": "Task",
+      "status": "Culture fit round",
+      "priority": "Medium",
+      "listPosition": 2,
+      "createdAt": "2020-06-12T14:40:00.000Z",
+      "updatedAt": "2020-06-12T14:51:00.000Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["081ccaa1-5595-4621-8074-ede4927e67b0", "610451aa-10c8-4d7e-9363-311357c0b0dd"]
+    },
+    {
+      "id": "9554",
+      "title": "Dhivya",
+      "description": "DotNet",
+      "type": "Task",
+      "status": "Open",
+      "priority": "High",
+      "listPosition": 3,
+      "createdAt": "2020-06-12T14:40:00.000Z",
+      "updatedAt": "2020-06-12T14:51:00.000Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"]
+    },
+    {
+      "id": "9665",
+      "title": "Deepak",
+      "description": "ReactJS",
+      "type": "Bug",
+      "status": "Culture fit round",
+      "priority": "High",
+      "listPosition": 1,
+      "createdAt": "2020-06-12T14:40:00.000Z",
+      "updatedAt": "2020-06-12T14:51:00.000Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["94502aad-c97f-43e1-a9d1-28cf3e4937a7", "7ac265f9-b9ac-443f-a2b2-795682e579a4"]
+    },
+    {
+      "id": "9667",
+      "title": "Katheeja",
+      "description": "Node",
+      "type": "Bug",
+      "status": "Contacted",
+      "priority": "High",
+      "listPosition": 1,
+      "createdAt": "2020-06-28T15:30:00.000Z",
+      "updatedAt": "2020-06-28T16:30:00.000Z",
+      "reporterId": "d65047e5-f4cf-4caa-9a38-6073dcbab7d1",
+      "userIds": ["d65047e5-f4cf-4caa-9a38-6073dcbab7d1"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<div class="issue-wrap">
+    <div (click)="openIssueModal(issue.id)"
+         class="issue">
+        <p class="pb-3 text-15 text-textDarkest">
+            {{ issue.title }}
+        </p>
+        <div class="flex items-center justify-between">
+            <div class="flex items-center ml-1">                          
+                <span [class.ml-3]="assignees?.length" class="uppercase">
+                    {{issue.description}}
+                </span>
+            </div>
+            <div class="flex items-center">
+                <svg-icon class="mr-1 text-textMedium"
+                          [name]="issueTypeIcon"
+                          nz-tooltip
+                          [nzTooltipMouseEnterDelay]="0.3"
+                          [nzTooltipTitle]="issue.type"
+                          nzTooltipPlacement="bottom"
+                          [size]="20">
+                </svg-icon>
+            </div>            
+        </div>
+    </div>
+</div>
