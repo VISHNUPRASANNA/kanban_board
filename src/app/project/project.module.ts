@@ -16,10 +16,7 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { QuillModule } from 'ngx-quill';
 import { JiraControlModule } from '../jira-control/jira-control.module';
 import { AddIssueModalComponent } from './components/add-issue-modal/add-issue-modal.component';
-import { IssueAssigneesSelectComponent } from './components/add-issue-modal/issue-assignees-select/issue-assignees-select.component';
 import { IssuePrioritySelectComponent } from './components/add-issue-modal/issue-priority-select/issue-priority-select.component';
-import { IssueReporterSelectComponent } from './components/add-issue-modal/issue-reporter-select/issue-reporter-select.component';
-import { IssueTypeSelectComponent } from './components/add-issue-modal/issue-type-select/issue-type-select.component';
 import { BoardPageComponents } from './components/board';
 import { IssueUtilComponents } from './components/issues';
 import { NavigationComponents } from './components/navigation';
@@ -45,10 +42,7 @@ import { ProjectComponent } from './project.component';
     IssueResultComponent,
     AddIssueModalComponent,
     UserComponent,
-    IssueTypeSelectComponent,
-    IssuePrioritySelectComponent,
-    IssueReporterSelectComponent,
-    IssueAssigneesSelectComponent
+    IssuePrioritySelectComponent
   ],
   imports: [
     CommonModule,

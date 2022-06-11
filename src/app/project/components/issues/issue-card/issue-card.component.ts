@@ -1,4 +1,4 @@
-import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
+import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { JIssue } from '@trungk18/interface/issue';
 import { IssuePriorityIcon } from '@trungk18/interface/issue-priority-icon';
@@ -36,15 +36,15 @@ export class IssueCardComponent implements OnChanges, OnInit {
     }
   }
 
-  openIssueModal(issueId: string) {
-    this._modalService.create({
-      nzContent: IssueModalComponent,
-      nzWidth: 1040,
-      nzClosable: false,
-      nzFooter: null,
-      nzComponentParams: {
-        issue$: this._projectQuery.issueById$(issueId)
-      }
-    });
-  }
+  // openIssueModal(issueId: string) {
+  //   this._modalService.create({
+  //     nzContent: IssueModalComponent,
+  //     nzWidth: 1040,
+  //     nzClosable: false,
+  //     nzFooter: null,
+  //     nzComponentParams: {
+  //       issue$: this._projectQuery.issueById$(issueId)
+  //     }
+  //   });
+  // }
 }
