@@ -3,8 +3,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@basedir/*": ["src/app/*"],
-      "@basedir/interface/*": ["src/app/interface/*"]
+      "@trungk18/*": ["src/app/*"],
+      "@trungk18/interface/*": ["src/app/interface/*"]
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
