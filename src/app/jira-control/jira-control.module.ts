@@ -5,14 +5,12 @@ import { SvgIconComponent } from './svg-icon/svg-icon.component';
 import { ButtonComponent } from './button/button.component';
 import { InputComponent } from './input/input.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { AvatarComponent } from './avatar/avatar.component';
 
 const JiraControlComponents = [
   SvgDefinitionsComponent,
   SvgIconComponent,
   ButtonComponent,
-  InputComponent,
-  AvatarComponent
+  InputComponent
 ];
 @NgModule({
   declarations: JiraControlComponents,

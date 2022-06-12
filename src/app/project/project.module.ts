@@ -16,16 +16,11 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { QuillModule } from 'ngx-quill';
 import { JiraControlModule } from '../jira-control/jira-control.module';
 import { AddIssueModalComponent } from './components/add-issue-modal/add-issue-modal.component';
-import { IssuePrioritySelectComponent } from './components/add-issue-modal/issue-priority-select/issue-priority-select.component';
 import { BoardPageComponents } from './components/board';
 import { IssueUtilComponents } from './components/issues';
 import { NavigationComponents } from './components/navigation';
-import { IssueResultComponent } from './components/search/issue-result/issue-result.component';
-import { SearchDrawerComponent } from './components/search/search-drawer/search-drawer.component';
-import { UserComponent } from './components/user/user.component';
 import { NZ_JIRA_ICONS } from './config/icons';
 import { BoardComponent } from './pages/board/board.component';
-import { SettingsComponent } from './pages/settings/settings.component';
 import { ProjectRoutingModule } from './project-routing.module';
 import { ProjectComponent } from './project.component';
 
@@ -37,12 +32,7 @@ import { ProjectComponent } from './project.component';
     ...IssueUtilComponents,
     ProjectComponent,
     BoardComponent,
-    SettingsComponent,
-    SearchDrawerComponent,
-    IssueResultComponent,
-    AddIssueModalComponent,
-    UserComponent,
-    IssuePrioritySelectComponent
+    AddIssueModalComponent
   ],
   imports: [
     CommonModule,

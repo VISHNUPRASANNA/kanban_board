@@ -63,17 +63,9 @@ export class BoardDndListComponent implements OnInit {
     return issues.filter((issue) => {
       const isMatchTerm = searchTerm ? IssueUtil.searchString(issue.title, searchTerm) : true;
 
-      const isIncludeUsers = userIds.length
-        ? issue.userIds.some((userId) => userIds.includes(userId))
-        : true;
-
-      const isMyIssue = onlyMyIssue
-        ? this.currentUserId && issue.userIds.includes(this.currentUserId)
-        : true;
-
       const isIgnoreResolved = ignoreResolved ? issue.status !== IssueStatus.CULTURE_FIT : true;
 
-      return isMatchTerm && isIncludeUsers && isMyIssue && isIgnoreResolved;
+      return isMatchTerm && isIgnoreResolved;
     });
   }
 

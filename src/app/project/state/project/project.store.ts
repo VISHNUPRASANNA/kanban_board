@@ -6,8 +6,7 @@ export type ProjectState = JProject;
 
 function createInitialState(): ProjectState {
   return {
-    issues: [],
-    users: []
+    issues: []
   } as ProjectState;
 }
 

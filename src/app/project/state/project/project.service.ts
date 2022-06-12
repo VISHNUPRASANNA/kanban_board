@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { arrayRemove, arrayUpsert, setLoading } from '@datorama/akita';
-import { JComment } from '@trungk18/interface/comment';
 import { JIssue } from '@trungk18/interface/issue';
 import { JProject } from '@trungk18/interface/project';
 import { DateUtil } from '@trungk18/project/utils/date';
@@ -31,9 +30,9 @@ export class ProjectService {
         setLoading(this._store),
         tap((project) => {
           this._store.update((state) => ({
-              ...state,
-              ...project
-            }));
+            ...state,
+            ...project
+          }));
         }),
         catchError((error) => {
           this._store.setError(error);
@@ -51,7 +50,6 @@ export class ProjectService {
   }
 
   updateIssue(issue: JIssue) {
-    issue.updatedAt = DateUtil.getNow();
     this._store.update((state) => {
       const issues = arrayUpsert(state.issues, issue.id, issue);
       return {
@@ -68,20 +66,6 @@ export class ProjectService {
         ...state,
         issues
       };
-    });
-  }
-
-  updateIssueComment(issueId: string, comment: JComment) {
-    const allIssues = this._store.getValue().issues;
-    const issue = allIssues.find((x) => x.id === issueId);
-    if (!issue) {
-      return;
-    }
-
-    const comments = arrayUpsert(issue.comments ?? [], comment.id, comment);
-    this.updateIssue({
-      ...issue,
-      comments
     });
   }
 }

@@ -5,7 +5,6 @@ import { FilterQuery } from '@trungk18/project/state/filter/filter.query';
 import { FilterService } from '@trungk18/project/state/filter/filter.service';
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 import { ProjectQuery } from '@trungk18/project/state/project/project.query';
-import { JUser } from '@trungk18/interface/user';
 
 @Component({
   selector: 'board-filter',
