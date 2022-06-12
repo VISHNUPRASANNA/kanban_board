@@ -1,9 +1,7 @@
 {
   "id": "140892",
-  "name": "Angular Jira Clone",
-  "url": "https://github.com/trungk18/jira-clone-angular",
-  "description": "A Jira clone app built with Angular 10, Akita and ng-zorro - by trungk18",
-  "category": "Software",
+  "name": "Kanban Board",
+  "description": "Recruitment Tool",
 
   "issues": [
     {
@@ -113,7 +111,7 @@
     },
     {
       "id": "9667",
-      "title": "Katheeja",
+      "title": "Prasanna",
       "description": "Node",
       "status": "Contacted",
       "listPosition": 1

@@ -10,8 +10,4 @@ export class BoardComponent {
   breadcrumbs: string[] = ['Projects', 'Angular Jira Clone', 'Kanban Board'];
 
   constructor(private _googleAnalytics: GoogleAnalyticsService) {}
-
-  sendTwitterEventButton() {
-    this._googleAnalytics.sendEvent('Share Twitter', 'button');
-  }
 }

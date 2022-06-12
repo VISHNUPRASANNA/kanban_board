@@ -21,4 +21,3 @@ export interface JIssue {
   listPosition: number;
   description: string;
 }
-/* eslint-enable no-shadow */

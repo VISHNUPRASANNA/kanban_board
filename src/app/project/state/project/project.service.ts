@@ -1,9 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { arrayRemove, arrayUpsert, setLoading } from '@datorama/akita';
-import { JIssue } from '@trungk18/interface/issue';
+import { JIssue } from '../../../interface/issue';
 import { JProject } from '@trungk18/interface/project';
-import { DateUtil } from '@trungk18/project/utils/date';
 import { of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
